@@ -1,0 +1,72 @@
+# AWS EKS Helm Chart
+
+![](https://i.imgur.com/waxVImv.png)
+### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+<br/>
+
+## EKS Charts
+
+Add the EKS repository to Helm:
+
+```sh
+helm repo add eks https://aws.github.io/eks-charts
+```
+
+### App Mesh
+* [appmesh-controller](stable/appmesh-controller): App Mesh controller Helm chart for Kubernetes
+* [appmesh-prometheus](stable/appmesh-prometheus): App Mesh Prometheus Helm chart for Kubernetes
+* [appmesh-grafana](stable/appmesh-grafana): App Mesh Grafana Helm chart for Kubernetes
+* [appmesh-jaeger](stable/appmesh-jaeger): App Mesh Jaeger Helm chart for Kubernetes
+* [appmesh-spire-server](stable/appmesh-spire-server): App Mesh SPIRE Server Helm chart for Kubernetes
+* [appmesh-spire-agent](stable/appmesh-spire-agent): App Mesh SPIRE Agent Helm chart for Kubernetes
+* [appmesh-gateway](stable/appmesh-gateway): App Mesh Gateway Helm chart for Kubernetes
+* [appmesh-inject](stable/appmesh-inject)(**deprecated**): App Mesh inject Helm chart for Kubernetes
+
+### AWS Node Termination Handler
+* [aws-node-termination-handler](stable/aws-node-termination-handler): Gracefully handle EC2 instance shutdown within Kubernetes. https://github.com/aws/aws-node-termination-handler
+
+### AWS Calico
+* [aws-calico](stable/aws-calico): Install Calico network policy enforcement on AWS
+
+### AWS CloudWatch Metrics
+* [aws-cloudwatch-metrics](stable/aws-cloudwatch-metrics): A helm chart for CloudWatch Agent to Collect Cluster Metrics
+
+### AWS for Fluent Bit
+* [aws-for-fluent-bit](stable/aws-for-fluent-bit): A helm chart for [AWS-for-fluent-bit](https://github.com/aws/aws-for-fluent-bit)
+
+### AWS Load Balancer Controller
+* [aws-load-balancer-controller](stable/aws-load-balancer-controller): A helm chart for [AWS Load Balancer Controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller)
+
+### AWS VPC CNI
+* [aws-vpc-cni](stable/aws-vpc-cni): Networking plugin for pod networking in Kubernetes using Elastic Network Interfaces on AWS. https://github.com/aws/amazon-vpc-cni-k8s
+
+### AWS SIGv4 Proxy Admission Controller
+* [aws-sigv4-proxy-admission-controller](stable/aws-sigv4-proxy-admission-controller): A helm chart for [AWS SIGv4 Proxy Admission Controller](https://github.com/aws-observability/aws-sigv4-proxy-admission-controller)
+
+### AWS Secrets Manager and Config Provider for Secret Store CSI Driver
+
+**This Helm chart is deprecated, please switch to https://aws.github.io/secrets-store-csi-driver-provider-aws/ which is reviewed, owned and maintained by AWS.**
+
+* [csi-secrets-store-provider-aws](stable/csi-secrets-store-provider-aws): A helm chart for [AWS Secrets Manager and Config Provider](https://github.com/aws/secrets-store-csi-driver-provider-aws)
+
+### Amazon EC2 Metadata Mock
+* [amazon-ec2-metadata-mock](stable/amazon-ec2-metadata-mock): A tool to simulate Amazon EC2 instance metadata service for local testing
+
+### CNI Metrics Helper
+* [cni-metrics-helper](stable/cni-metrics-helper): A helm chart for [CNI Metrics Helper](https://github.com/aws/amazon-vpc-cni-k8s/blob/master/cmd/cni-metrics-helper/README.md)
+
+
+# 🚀 I'm are always open to your feedback.  Please contact as bellow information:
+### [Contact ]
+* [Name: nho Luong]
+* [Skype](luongutnho_skype)
+* [Github](https://github.com/nholuongut/)
+* [Linkedin](https://www.linkedin.com/in/nholuong/)
+* [Email Address](luongutnho@hotmail.com)
+
+![](https://i.imgur.com/waxVImv.png)
+![](Donate.png)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
+
+# License
+* Nho Luong (c). All Rights Reserved.🌟
